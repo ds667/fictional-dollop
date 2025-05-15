@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boba Bliss</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="bg-orange-50 text-gray-800">
+
+  <header class="bg-white shadow fixed w-full z-10">
+    <div class="container mx-auto flex justify-between items-center px-4 py-3">
+      <h1 class="text-xl font-bold text-pink-600">Boba Bliss</h1>
+      <nav class="space-x-4 hidden md:block">
+        <a href="#" class="hover:text-pink-500">Home</a>
+        <a href="#menu" class="hover:text-pink-500">Menu</a>
+        <a href="#faq" class="hover:text-pink-500">FAQ</a>
+        <a href="#contact" class="hover:text-pink-500">Contact</a>
+      </nav>
+      <details class="md:hidden">
+        <summary class="cursor-pointer">☰</summary>
+        <div class="absolute bg-white right-4 mt-2 border rounded shadow p-4 space-y-2">
+          <a href="#" class="block">Home</a>
+          <a href="#menu" class="block">Menu</a>
+          <a href="#faq" class="block">FAQ</a>
+          <a href="#contact" class="block">Contact</a>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <aside class="hidden md:block fixed left-0 top-16 w-40 bg-pink-100 h-full p-4">
+    <ul class="space-y-2">
+      <li><a href="#" class="hover:underline">🍓 Strawberry</a></li>
+      <li><a href="#" class="hover:underline">🥭 Mango</a></li>
+      <li><a href="#" class="hover:underline">🍫 Chocolate</a></li>
+      <li><a href="#" class="hover:underline">🍵 Matcha</a></li>
+    </ul>
+  </aside>
+
+  <section class="pt-20 md:ml-40 text-center px-4">
+    <div class="container mx-auto max-w-4xl">
+      <h2 class="text-4xl font-bold mb-4">Sip Into Happiness</h2>
+      <p class="mb-6 text-lg">Your daily dose of chewy pearls and creamy flavors.</p>
+      <img src="https://images.unsplash.com/photo-1628134370506-08fc1c94e0f2?auto=format&fit=crop&w=800&q=80" alt="Boba" class="rounded-xl mx-auto shadow-lg w-full max-w-md" />
+    </div>
+  </section>
+  <section id="menu" class="mt-12 md:ml-40 px-4">
+    <div class="container mx-auto max-w-5xl">
+      <h3 class="text-2xl font-semibold mb-6">Our Top Picks</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
+          <h4 class="font-bold text-pink-600 mb-2">Classic Milk Tea</h4>
+          <p>Bold tea, creamy milk, and sweet tapioca pearls.</p>
+        </div>
+        <div class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
+          <h4 class="font-bold text-pink-600 mb-2">Taro Delight</h4>
+          <p>Smooth, purple magic in every sip.</p>
+        </div>
+        <div class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
+          <h4 class="font-bold text-pink-600 mb-2">Lychee Green</h4>
+          <script src="https://cdn.tailwindcss.com"></script>
+
+          <p>Fruity, fresh, and slightly floral with lychee popping boba.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="faq" class="mt-12 md:ml-40 px-4">
+    <div class="container mx-auto max-w-4xl">
+      <h3 class="text-2xl font-semibold mb-6">FAQs</h3>
+      <div class="space-y-4">
+        <details class="bg-white rounded p-4 shadow">
+          <summary class="font-semibold cursor-pointer">What is boba?</summary>
+          <p class="mt-2">Boba refers to the chewy tapioca pearls often found in bubble tea.</p>
+        </details>
+        <details class="bg-white rounded p-4 shadow">
+          <summary class="font-semibold cursor-pointer">Is it dairy-free?</summary>
+          <p class="mt-2">We have both dairy and plant-based milk options available.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+ 
+  <footer id="contact" class="bg-pink-200 text-center p-6 mt-12 md:ml-40">
+    <h4 class="font-semibold mb-2">Let's Connect!</h4>
+    <p>Email us: <a href="mailto:hello@bobabliss.com" class="underline">hello@bobabliss.com</a></p>
+    <p class="mt-2 text-sm text-gray-600">&copy; 2025 Boba Bliss. Sip responsibly.</p>
+  </footer>
+
+</body>
+</html>
